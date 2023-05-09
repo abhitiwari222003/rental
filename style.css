@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "oppins" sans-serif;
+}
+h1,h2,h3,h4,h5,h6{
+    font-weight: 600;
+}
+
+.container{
+    background-color: #fff;    
+}
+.navbar{
+    box-shadow: 0px 0px 30px  rgba(0,0, 0.1);
+}
+.navbar-brand img{
+  width: 20%;
+  height: 45%;
+}
+
+.nav-item a{
+    font-size: 20px;
+      
+}
+.btn{
+   background-color: #db3e00;
+}
+.btn-brand{
+    border: 1px solid #db3e00;
+    color:#fff;
+}
+.btn-brand:hover{
+    background-color: #e79090;
+}
+
+/* slider  */
+.carousel-control-next-icon, .carousel-control-prev-icon {
+    width: 4rem;
+    height: 25rem;
+}
+.carousel-item {
+    height: 100vh;
+    min-height: 30px;
+}
+.carousel-caption{
+    bottom: 190px;
+    z-index: 2;
+}
+.carousel-caption h1{
+    font-size: 55px;
+    color: #FFF;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 2px;
+}
+.carousel-caption p{
+    margin-bottom: 10px;
+}
+.carousel-caption .btn{
+    margin-top: 25px;
+
+}
+
+.carousel-inner::before {
+    content:"";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgb(0, 0, 0,0.4);
+    z-index:1;
+}
+
+/* about section */
+.about-section-padding{
+    padding: 85px;
+
+}
+
+
+/* our Services */
+.our-services .row{
+     align-items: center;
+     text-align: center;
+     padding-top: 50px;
+}
+.our-services h2{
+    font-size: 55px;
+   margin-top: 5px;
+}
+.our-services p{
+    margin-top: 10px ;
+}
+ .card {
+    margin-top: 35px;
+ }   
+.card-body h5 {
+    font-size: 20px;
+    margin-top: 5px;
+}
+.card-body p{
+    font-size:15px;
+    font-family: "oppins" sans-serif;
+    
+}
+/* review section */
+
+.slider-area {
+   background-color: #8a8888;
+   
+}
+ .review {
+   height: 20px;
+}
+/* our gallery */
+.our-gallery{
+    align-items: center;
+    text-align: center;
+    padding: 55px;
+   
+}
+.our-gallery h2{
+    background-color: #fff;
+}
+.our-gallery h2{
+    width: 2;
+    height: auto;
+    font-size: 55px;
+    color: #000;
+}
+.our-gallery span{
+    color:#db3e00;;
+     vertical-align: super;
+}
+
